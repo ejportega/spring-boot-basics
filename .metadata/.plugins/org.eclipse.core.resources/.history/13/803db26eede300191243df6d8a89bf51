@@ -1,0 +1,5 @@
+package com.spring.rest.webservices.restfulwebservices.filtering;
+
+public class SomeBean {
+
+}

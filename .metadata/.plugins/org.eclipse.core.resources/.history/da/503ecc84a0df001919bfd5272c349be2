@@ -1,0 +1,17 @@
+package com.spring.rest.webservices.restfulwebservices.user;
+
+import java.util.List;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class UserResource {
+
+	private UserDaoService service;
+	
+	@GetMapping(path = "user/")
+	public List<User> retrieveAllUsers() {
+		return service.findAll();
+	}
+}

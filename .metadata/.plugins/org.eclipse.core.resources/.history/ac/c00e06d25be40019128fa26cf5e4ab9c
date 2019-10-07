@@ -1,0 +1,5 @@
+package com.spring.rest.webservices.restfulwebservices.user;
+
+public class UserRepository {
+
+}

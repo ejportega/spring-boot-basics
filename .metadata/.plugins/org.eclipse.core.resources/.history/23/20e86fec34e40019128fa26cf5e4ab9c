@@ -1,0 +1,5 @@
+package com.jpa.jpabasics.entity;
+
+public class User {
+
+}
